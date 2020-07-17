@@ -1,0 +1,37 @@
+.card-fav-image {
+  width: 100%;
+}
+
+.card-fav {
+  width: 400px;
+  height: 600px;
+  float: left;
+  width: 33.33%;
+}
+
+.grid-layout-favourites:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-fav-image {
+  width: 100%;
+}
+
+.favourites-title {
+  display: flex;
+  /* justify-content: center;
+    align-items: center;  */
+  /* height: 1rem; */
+  font-size: 60px;
+  padding: 1rem 1rem;
+  margin-top: 1.6rem;
+  /* margin-bottom: 2rem; */
+}
+
+/* #favourites-btn {
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
+} */

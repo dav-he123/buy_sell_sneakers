@@ -1,0 +1,131 @@
+#login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+
+#login-section .login-form {
+  padding: 2rem 1rem;
+  background: transparent;
+  border-radius: 5px;
+  /* color: #f4f4f4; */
+}
+
+.btn-login {
+  border: 1.5px solid black;
+  outline: none;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 10px;
+  width: 60px;
+  height: 30px;
+  margin-left: 0.5rem;
+}
+
+.btn-login:hover {
+  background: var(--first-color);
+  cursor: pointer;
+  color: lightgrey;
+}
+
+#fav-buy-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#fav-buy-section .fav-add-btn {
+  border: 1.5px solid black;
+  outline: none;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 20px;
+  width: 150px;
+  height: 55px;
+  margin-left: 0.5rem;
+}
+
+#fav-buy-section .fav-add-btn:hover {
+  background: transparent;
+  cursor: pointer;
+  color: blue;
+}
+
+#fav-buy-section .sms-sendbtn {
+  border: 1.5px solid black;
+  outline: none;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 20px;
+  width: 150px;
+  height: 55px;
+  margin-left: 0.5rem;
+}
+
+#fav-buy-section .sms-sendbtn:hover {
+  background: transparent;
+  cursor: pointer;
+  color: blue;
+}
+
+.card-image {
+  width: 100%;
+  /* height: 200px; */
+}
+
+.card {
+  float: left;
+  width: 33.33%;
+}
+
+.sneakers-title {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;  */
+  /* height: 1rem; */
+  font-size: 60px;
+  padding: 1rem 1rem;
+  margin-top: 1.6rem;
+}
+
+.card {
+  float: left;
+  width: 33.33%;
+}
+
+.grid-layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title-slogan {
+  font-size: 100px;
+  margin-top: 117px;
+  float: right;
+  width: 50%;
+}
+
+/* .game-board {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+} */
